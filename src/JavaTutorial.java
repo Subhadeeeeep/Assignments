@@ -1,3 +1,4 @@
+import java.security.PublicKey;
 import java.util.*;
 public class JavaTutorial {
     public static void main(String[] args) {
@@ -244,7 +245,74 @@ public class JavaTutorial {
             System.out.println(a[i]);
         }
         */
+        /*
+        Scanner c=new Scanner(System.in);
+        System.out.println("Enter name : ");
+        String n=c.next();
+        System.out.println("Enter age : ");
+        int a=c.nextInt();
+        System.out.println("Your name is "+n);
+        System.out.println("Your age is "+a);
+        */
 
+        /* CURRENCY CONVERTER
+        INR INPUT
+        US$
+        Pound
+        ZEN
+        */
+        /*
+        Scanner c=new Scanner(System.in);
+        System.out.println("Enter amount in INR: ");
+        float a=c.nextFloat();
+        float u=a/79;
+        float p=a/111;
+        float z=a/70;
+        System.out.println("Amount in US$ : "+u);
+        System.out.println("Amount in Pound : "+p);
+        System.out.println("Amount in Zen : "+z);
+        */
 
+        /*Scanner c=new Scanner(System.in);
+        System.out.println("Enter a string: ");
+        String str=c.next();
+        String rev="";
+        int i;
+        char ch;
+        for (i=0;i<str.length();i++){
+            ch=str.charAt(i);
+            rev=ch+rev;
+        }
+        System.out.println(rev);
+        */
+        /*Scanner c=new Scanner(System.in);
+        try {
+            int i;
+            int[] arr = new int[5];
+            for (i = 1; i < 10; i++) {
+                arr[i] = c.nextInt();
+            }
+        }
+        catch(Exception e) {
+            System.out.println("Something went wrong");
+        }
+        */
+        /*double a=25;
+        double x=Math.sqrt(a);
+        System.out.println(x);
+        */
+/*
+        sum(23,34);
+        sum(23.0f,34.0f);
+    }
+    public static void sum(int a,int b) {
+        int sum=a+b;
+        System.out.println("Sum in int : "+sum);
+    }
+    public static void sum(float a,float b) {
+        float sum=a+b;
+        System.out.println("Sum in float : "+sum);
+    }
+ */
     }
 }
