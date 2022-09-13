@@ -40,7 +40,7 @@ public class JavaTutorial {
         String n=c.next();
         System.out.println("Enter marks");
         int m=c.nextInt();
-        System.out.println("Mr. "+n+" has recieved "+m);
+        System.out.println("Mr. "+n+" has received "+m);
         */
 
         /*Scanner c=new Scanner(System.in);
@@ -313,6 +313,7 @@ public class JavaTutorial {
         float sum=a+b;
         System.out.println("Sum in float : "+sum);
     }
- */
+    */
+
     }
 }

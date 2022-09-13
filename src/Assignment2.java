@@ -117,7 +117,35 @@ public class Assignment2 {
         DUDE
     }
     */
-
+        // 10. Enter 2 arrays and merge them
+        Scanner c = new Scanner(System.in);
+        System.out.print("Enter the number of elements you want to store in 1st array: ");
+        int n=c.nextInt();
+        int[] array1 = new int[n];
+        System.out.println("Enter the elements of the array: ");
+        for(int i=0; i<n; i++) {
+            array1[i]=c.nextInt();
+        }
+        System.out.print("Enter the number of elements you want to store in 2nd array: ");
+        int m=c.nextInt();
+        int[] array2 = new int[m];
+        System.out.println("Enter the elements of the array: ");
+        for(int i=0; i<m; i++) {
+            array2[i]=c.nextInt();
+        }
+        int len=n+m;
+        int[] result = new int[len];
+        int p = 0;
+        for (int ele: array1) {
+            result[p] = ele;
+            p++;
+        }
+        for (int ele: array2) {
+            result[p] = ele;
+            p++;
+        }
+        System.out.println("After Merging : ");
+        System.out.println(Arrays.toString(result));
     }
 }
 
